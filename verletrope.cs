@@ -8,6 +8,8 @@ public partial class rope : Node2D
     /// <summary>
     /// This script creates a rope using a series of Points, each with currentPos and prevPos. 
     /// These points are used in Verlet integration to simulate rope physics.
+    /// There is some useless stuff in here where I tried to get accurate rope collisions with level geometry, but didn't succeed.
+    /// Just ignore it if you can, it's the stuff where I use Raycasts.
     /// </summary>
 
     //-------------------------------------------Initialize--------------------------------------------------
